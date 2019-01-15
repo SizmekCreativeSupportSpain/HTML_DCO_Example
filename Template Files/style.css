@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:200,400');
+
+/* Resets ------ */ 
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figure, figcaption, hgroup, menu, footer, header, nav, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; } article, aside, canvas, figure, figure img, figcaption, hgroup, footer, header, nav, section, audio, video { display: block; } a img {border: 0;}
+
+
+/************
+TAG STYLES
+ ************/
+
+html, body{
+  width: 100%;
+  height: 100%;
+}
+
+/*******************
+BANNER STYLES
+*******************/
+#banner{
+	position: absolute;
+	display: block;
+	width: 300px;
+	height: 250px;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+	opacity: 0;
+}
+
+#imageURL{
+	position: absolute;
+	z-index: 0;
+}
+
+#imageAdditionalAssets{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+}
+
+#clickBtn{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	outline: none;
+	border: none;
+	background: transparent;
+	cursor: pointer;
+	z-index: 100;
+}
+
+#htmlVar{
+	font-family: "Saira Extra Condensed" , sans-serif;
+    font-weight: 200;
+    font-style: normal;
+	color: #FFF; 
+    position: absolute;
+    width: 300px;
+    text-align: center;
+    z-index: 3;
+}
